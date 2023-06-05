@@ -47,7 +47,7 @@
 -   navigate to `Roles` under `App Roles`
 -   click on `Add Testers`, and put into the field the value of a Facebook ID you will use to log into the app with
     -   to get the value of a Facebook ID, simply log into the Facebook account, go to the profile page, then grab the ID from the URL
--   go activate the tester account, with your tester account navigate to facebook developers [HERE](https://developers.facebook.com)
+-   to activate the tester account, with your tester account navigate to facebook developers [HERE](https://developers.facebook.com)
 -   navigate to `My Apps`, and in the dropdown you will see a prompt to accept the account as a tester on the app
 -   next go to `Products`, under `Facebook Login` click `Configure`, then `Settings`
 -   for things to work in your development environment you don't need to fill in anything on this screen
@@ -58,4 +58,4 @@
 ### Deployment on Digitalocean:
 
 -   to deploy, go to the following link [HERE](https://www.youtube.com/watch?v=2pZmxh8Tf78)
--   next go to the the timestamp at `2:47:14`, this is where I show the Digitalocean deployment
+-   next go to the timestamp at `2:47:14`, this is where I show the Digitalocean deployment
