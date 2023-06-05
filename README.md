@@ -18,8 +18,8 @@
 -   then go to `Security credentials`, and create a new access key
 -   take the access key and secret, and use them as the values in the `AWS_SES_ACCESS_KEY_ID` and `AWS_SES_SECRET_ACCESS_KEY` environment variables
 -   fill in the region where you set up the Simple Email Service in the `AWS_SES_REGION_NAME` environment variable
--   fill in the email that will be sending email in the `AWS_SES_FROM_EMAIL` environment variable
--   go to google cloud at [Google](https://console.cloud.google.com)
+-   fill in the email that will be sending emails in the `AWS_SES_FROM_EMAIL` environment variable
+-   go to google cloud [HERE](https://console.cloud.google.com)
 -   in the settings, hover over `APIs & Services`, and click on `OAuth consent screen`
 -   fill in the details for the OAuth consent screen
     -   create an `External` user type
@@ -35,7 +35,7 @@
 -   to have this work in your production environment, do the following:
     -   under `Authorized JavaScript origins`, add `https://your-domain.com`
     -   under `Authorized redirect URIs`, add `https://your-domain.com/auth/google`
--   go to facebook developers at [Facebook](https://developers.facebook.com)
+-   go to facebook developers [HERE](https://developers.facebook.com)
 -   navigate to `My Apps`, click on `Create App`, then click `Set up Facebook Login`, then click `Next`
 -   select `Website` and `No, I'm not building a game`, then click `Next`
 -   fill in your app name, then click `Create app`
@@ -47,7 +47,7 @@
 -   navigate to `Roles` under `App Roles`
 -   click on `Add Testers`, and put into the field the value of a Facebook ID you will use to log into the app with
     -   to get the value of a Facebook ID, simply log into the Facebook account, go to the profile page, then grab the ID from the URL
--   go activate the tester account, with your tester account navigate to facebook developers at [Facebook](https://developers.facebook.com)
+-   go activate the tester account, with your tester account navigate to facebook developers [HERE](https://developers.facebook.com)
 -   navigate to `My Apps`, and in the dropdown you will see a prompt to accept the account as a tester on the app
 -   next go to `Products`, under `Facebook Login` click `Configure`, then `Settings`
 -   for things to work in your development environment you don't need to fill in anything on this screen
@@ -57,5 +57,5 @@
 
 ### Deployment on Digitalocean:
 
--   to deploy, go to the following link [YouTube](https://www.youtube.com/watch?v=2pZmxh8Tf78)
+-   to deploy, go to the following link [HERE](https://www.youtube.com/watch?v=2pZmxh8Tf78)
 -   next go to the the timestamp at `2:47:14`, this is where I show the Digitalocean deployment
